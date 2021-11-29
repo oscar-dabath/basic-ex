@@ -1,0 +1,2 @@
+# basic-ex
+basic exercises
