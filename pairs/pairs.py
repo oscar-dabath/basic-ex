@@ -30,10 +30,13 @@ def pairs(k, arr):
         if diff==k:
             count+=1
             left+=1
-
-
-        
-    return count
+        return count
+    
+   
+#def pairs(k, arr):
+#    set1 = set(arr)
+#    set2 = [value + k for value in arr]
+#    return len(set1.intersection(set2))
 
         
 if __name__ == '__main__':
